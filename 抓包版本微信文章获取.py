@@ -1,16 +1,17 @@
 import requests
 import re
-import store
+import store   # 文件储存模块
 from pip._vendor import requests, urllib3
+"""
+需要配合抓包工具获取相应的参数才能获取信息
+"""
 
 # 微信公众号唯一ID
-biz = 'MjM5NTYzMzU3Mg'
-# 暂时未知（不改变的确认值）
-uin = 'MjU4MjYwMDIxNA'
+biz = '抓包工具获取'
+# 个人微信id
+uin = '抓包工具获取'
 # 定时获取的验证的key
-key = '2ac1ab72d9f9ae7fd2b041edfc1e3ec7757b3a74a173fee78d3d13e1694f61a37fede2ad73ef7baf281fa2afeedb8bc4f2992f294e335af0d' \
-      'c5807260bfe0bc43c54a3bf53fa7c3c28de62f5cde116ddea13e839f633047f553a3cd675316ae8191c5c5bdadc3467d5fdbd013cd78c4ef' \
-      '41645c8add1c8f16fdf375e5c6f7ec5'
+key = '抓包工具获取'
 offset = 0  # 页数，0开始，每10增长
 count = '10'  # 每页显示的数量，有限制最多数
 
