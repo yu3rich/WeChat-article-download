@@ -5,6 +5,8 @@
 
 2、暂时移除储存到excel功能
 
+3、新增获取头条发布的时间
+
 
 **存在问题**
 
@@ -42,9 +44,9 @@
 了解了链接中参数意义
 
         # 微信公众唯一ID
-        biz = 'MzI0MTA3NDU4OQ'
+        biz = '抓包工具获取'
         # 个人微信id
-        uin = 'MjU4MjYwMDIxNA%3D%3D'
+        uin = '抓包工具获取'
         # 定时获取验证的key
         key = 'a5caf4e3c7ba63cbe6c4fbb37d4d7577c07d617c1cf1e1a7f4129caa82848ea81191282b75ca5c8fc51f8983154937450fe4ea59321c' \
             '1f871acbca4de8c24d21878e66d69763a29352ee8a7c329ebc0decb43e65c9f8fcaaf301bf0bac283614bef3626139bcd0d' \
