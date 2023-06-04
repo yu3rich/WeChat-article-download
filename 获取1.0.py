@@ -61,7 +61,7 @@ wechat_datas_4 = []
 
 
 def dataxls(dataxls):
-    workbook = xlsxwriter.Workbook(r'C:\Users\zx\Desktop\卓兴公众号数据分析.xlsx')  # 创建文件设置目录
+    workbook = xlsxwriter.Workbook(r'C:\Users\zx\Desktop\公众号数据分析.xlsx')  # 创建文件设置目录
     worksheet = workbook.add_worksheet('公众号数据')  # 设置工作表名
     # 设置表头
     header = ['阅读量', '发表时间', '标题', '链接']
